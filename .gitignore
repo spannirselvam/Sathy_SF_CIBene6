@@ -1,0 +1,20 @@
+# Summary: Exclude everything except: [/src; /resource-bundles]
+
+# Ignore everything
+/*
+
+# Including .gitignore
+!/.gitignore
+
+# Including /src folder
+!/src
+
+# Including /resource-bundles
+!/resource-bundles
+
+# Excluding TWS Sync Data to avoid affecting other users when somebody does a revert
+#  this could have been the reason for some of the IDE crashes
+/resource-bundles/TWS_Sync_Data
+
+# This was inserted by TWS
+/.localHistory
